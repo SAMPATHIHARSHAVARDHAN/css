@@ -1,0 +1,12 @@
+h1 {
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+p{
+    background-color: black;
+    color:aqua;
+    padding:10px;
+    border-radius:5px;
+}

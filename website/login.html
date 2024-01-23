@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="./css/custom.css">
+    <script src="./js/custom.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="left-menu">
+            <ul>
+                <li class="nav-items"><a href="#home">TELUGU IT TUTORIALS</a></li>
+            </ul>
+        </div>
+        <div id="menu" class="center-menu">
+            <ul>
+                <li class="nav-items"><a href="index.html#home">Home</a></li>
+                <li class="nav-items"><a href="index.html#articles">Articles</a></li>
+                <li class="nav-items"><a href="index.html#products">Products</a></li>
+                <li class="nav-items"><a href="index.html#about">About Us</a></li>
+                <li class="nav-items"><a href="index.html#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right-menu">
+            <ul>
+                <li class="nav-items"><a href="login.html">Login</a></li>
+                <li class="nav-items"><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <div class="nav-bar"  onclick="toggleMenu()">
+                <i id ="bars" class="fa-solid  fa-bars bar-icon"></i>
+        </div>
+    </nav>
+    <div class="login-main">
+
+        <form action="#" method="post">
+            <div class="login-container">
+                <h1>Login</h1>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="text" name="username" id="username" placeholder="Enter User Name" />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" />
+                </div>
+                <div class="btn-group">
+                    <input class="btn-red" type="submit" value="Login" name="submit" />
+                    <a class="btn-blue" href="register.html" >Register</a>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="top" onclick="movetotop()"><img class="top-img" src="./images/top.png" alt="top" /></div>
+    <section class="footer-container">
+        © Copyright TELUGU IT TUTORIALS . All Rights Reserved. Developed By: SrinivasaRao.K Contact : +91 8985472191
+    </section>
+
+</body>
+
+</html>
